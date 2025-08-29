@@ -12,7 +12,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.get('/', (req, res) => res.json({ ok: true, service: 'hackmate-backend' }))
+app.get('/', (req, res) => res.json({ ok: true, service: 'codecrew-backend' }))
 
 app.use('/api/auth', authRoutes)
 app.use('/api/hackathons', hackathonRoutes)
@@ -20,7 +20,7 @@ app.use('/api/teams', teamRoutes)
 app.use('/api/partners', partnerRoutes)
 
 const PORT = process.env.PORT || 4000
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/hackmate'
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/codecrew'
 
 mongoose.connect(MONGODB_URI).then(()=>{
   console.log('MongoDB connected')
