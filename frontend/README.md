@@ -1,5 +1,5 @@
 
-# Hackmate Frontend (Next.js)
+# CodeCrew Frontend (Next.js)
 
 Run with a backend at `http://localhost:4000` by default.
 
