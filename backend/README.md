@@ -1,7 +1,7 @@
 
-# Hackmate Backend
+# CodeCrew Backend
 
-Express + MongoDB + JWT backend for Hackmate-style app.
+Express + MongoDB + JWT backend for CodeCrew-style app.
 
 ## Setup
 1. `cp .env.example .env` and fill values.
